@@ -1,29 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tracking RaFFFle events: Tickets purchased for a specific raffle 🎫
+This is the source code for the tutorial **Tracking RaFFFle events: Tickets purchased for a specific raffle**. Click this [link](https://medium.com/@Shyft_to/9db91a36acd) to read the full tutorial.
+
 
 ## Getting Started
-
-First, run the development server:
-
+1. Clone repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Don't forget to ⭐ star and fork it first :)
+git clone --depth=1 git@github.com:Shyft-to/solana-brainfood.git droppii-b2b
+cd solana-brainfood/raffle-tracker
 ```
+2. Install the dependencies:
+```bash
+yarn install --frozen-lockfile
+```
+3. Rename the file from `.env.example` to `.env.local` and replace 'YOUR_SHYFT_API_KEY' with your actual Shyft API key.
+4. Run the development server:
+```bash
+yarn dev
+```
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## IMPORTANT - THE .env.local file
-
-This project calculates the number of tickets sold for a FFF raffle in one day using SHYFT APIs. In order to run to run this project create an .env.local file, and add one variable called
-
-`API_KEY=`
-
-The value for this will be your SHYFT API key which you shall obtain from SHYFT Website [Here.](http://shyft.to/get-api-key)
-
-View our detailed documentation [here.](http://docs.shyft.to/)
