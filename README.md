@@ -18,6 +18,7 @@ https://github.com/Shyft-to/solana-brainfood/assets/3310036/0ceed31a-f294-4831-b
 
 ## Resources
 
+[Youtube](https://www.youtube.com/@Shyft-to)  
 [Documentation](https://docs.shyft.to)  
 [Shyft SDK](https://www.npmjs.com/package/@shyft-to/js)  
 [Start Building](https://shyft.to/get-api-key)  
