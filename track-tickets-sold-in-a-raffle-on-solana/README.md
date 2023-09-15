@@ -1,5 +1,5 @@
 # Tracking RaFFFle events: Tickets purchased for a specific raffle 🎫
-This is the source code for the tutorial **Tracking RaFFFle events: Tickets purchased for a specific raffle**. Click this [link](https://medium.com/@Shyft_to/9db91a36acd) to read the full tutorial.
+This is the source code for the tutorial **Tracking RaFFFle events: Tickets purchased for a specific raffle**. Click this [link](https://blogs.shyft.to/how-to-track-ticket-purchased-for-a-famous-fox-raffle-on-solana-9db91a36acd) to read the full tutorial.
 
 
 ## Getting Started

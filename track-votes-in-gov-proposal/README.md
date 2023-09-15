@@ -1,5 +1,5 @@
 # Tracking Governance: Tracking all votes cast for a particular governance proposal 👍👎
-This is the source code for the tutorial **How to track all votes cast for a particular governance proposal**. Click this [link](https://medium.com/@Shyft_to/9db91a36acd) to read the full tutorial.
+This is the source code for the tutorial **How to track all votes cast for a particular governance proposal**. Click this [link](https://blogs.shyft.to/how-to-track-votes-for-realms-proposal-on-solana-807210b6e6c6) to read the full tutorial.
 
 
 ## Getting Started
