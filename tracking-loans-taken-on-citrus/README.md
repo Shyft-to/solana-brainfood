@@ -1,6 +1,9 @@
 # Tracking loans taken on @FamousFoxFed on Citrus in one day 🍊
 
-This is the source code for the tutorial **Tracking loan events on Famous Fox Citrus**. Click this [link](https://medium.com/p/f294ba29fdf5) to read the full tutorial.
+This is the source code for the tutorial **Tracking loan events on Famous Fox Citrus**. Click this [link](https://blogs.shyft.to/tracking-loan-events-on-famous-fox-citrus-f294ba29fdf5) to read the full tutorial.
+
+[![Final video of fixing issues in your code in VS Code](https://img.youtube.com/vi/uakCJTv70cI/maxresdefault.jpg)](https://www.youtube.com/watch?v=uakCJTv70cI)
+View this tutorial on Youtube, and if you like it, please share and subscribe. Your support means a lot to us.
 
 ## Getting Started
 
@@ -22,5 +25,4 @@ yarn dev
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## 💕 Support
-
 Drop this repo ⭐ star
