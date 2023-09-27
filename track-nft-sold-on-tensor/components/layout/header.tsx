@@ -26,7 +26,10 @@ export const Header = () => {
     >
       <div className="relative flex h-full min-h-[56px] items-center px-4 md:min-h-[64px] md:px-6 lg:px-10">
         <div className="flex grow items-center justify-end gap-2">
-          <a href="">
+          <a
+            target="_blank"
+            href="https://github.com/Shyft-to/solana-brainfood/tree/feat/track-nft-sold-on-tensor/track-nft-sold-on-tensor"
+          >
             <GithubIcon />
           </a>
         </div>

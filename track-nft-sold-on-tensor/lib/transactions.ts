@@ -1,12 +1,12 @@
 import { NFTResponse, NFTSaleTransactionType, NFTSaleTransactionTypeExtended, ShyftBaseResponse } from "@/types"
-import { isAfter, isBefore, endOfHour, startOfHour } from "date-fns"
+import { isAfter, isBefore, endOfHour, startOfHour, format } from "date-fns"
 
-export async function getTransactionsInDay(address: string, hour: number, oldestSignature?: string) {
+export async function getTransactionsInDay(address: string, startHour: number, oldestSignature?: string) {
   let allTransactions: NFTSaleTransactionTypeExtended[] = []
   let oldestTxnSignature = oldestSignature
   let isComplete = false
 
-  const date = new Date().setHours(hour)
+  const date = new Date().setHours(startHour)
 
   try {
     while (!isComplete) {
@@ -35,12 +35,14 @@ export async function getTransactionsInDay(address: string, hour: number, oldest
 
       const lastTransaction = transactions[transactions.length - 1]
 
+      // If the last transaction occurred before the startHour, we will stop fetching.
       if (isBefore(new Date(lastTransaction.timestamp), startOfHour(date))) {
         isComplete = true
       }
 
       oldestTxnSignature = transactions[transactions.length - 1].signatures[0]
 
+      // Filter all NFT_SALE transactions occur within a hour
       let nftSaleTransactions = transactions.filter(
         (tx) =>
           (tx.type === "NFT_SALE" || tx.type === "COMPRESSED_NFT_SALE") &&
@@ -83,10 +85,10 @@ export async function getTransactionsInDay(address: string, hour: number, oldest
 
       allTransactions = [...nftSaleTransactions, ...allTransactions]
 
-      // if (allTransactions.length > 5) {
-      //   isComplete = true
-      //   break
-      // }
+      if (allTransactions.length > 5) {
+        isComplete = true
+        break
+      }
     }
   } catch (error) {
     console.error(error)
