@@ -156,7 +156,7 @@
     --bs-body-color: #5a6a85;
     --bs-body-color-rgb: 90, 106, 133;
     --bs-body-bg: #212529;
-    --bs-body-bg-card: #111;
+    --bs-body-bg-card: #232152;
     --bs-body-bg-rgb: 33, 37, 41;
     --bs-emphasis-color: #f6f9fc;
     --bs-emphasis-color-rgb: 246, 249, 252;
@@ -201,8 +201,8 @@
     --bs-code-color: #e685b5;
     --bs-border-color: #495057;
     --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
-    --bs-our-theme-primary: #E33535;
-    --bs-our-theme-secondary: #FBB901;
+    --bs-our-theme-primary: #9381ff;
+    --bs-our-theme-secondary: #ffd8be;
     --bs-our-theme-lightgrey: #373737
 }
 *,

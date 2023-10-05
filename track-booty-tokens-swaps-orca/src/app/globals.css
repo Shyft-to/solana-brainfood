@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Urbanist:wght@100;200;300;400;500;600;700&display=swap');
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -161,3 +162,99 @@ a {
   }
 }
 
+.body_background {
+  background-color: #141316 !important;
+  font-family: 'Urbanist', sans-serif !important;
+}
+.purple_back_button
+{
+  background-color: #9381ff !important; 
+  font-weight: 600 !important;
+}
+.purple_back_button:hover
+{
+  background-color: #232152 !important;
+}
+.date_picker_color input {
+  border-radius: 20px;
+  color: #ffd8be;
+}
+
+.txn_container {
+  background-color: #232152;
+  padding: 16px 20px 24px;
+  border-radius: 18px;
+  margin-top: 16px;
+}
+.txn_container .sm_text
+{
+  font: 600 14px 'Baloo Bhai 2', cursive;
+  padding-top: 8px;
+}
+.txn_container .main_text {
+  font: 600 24px 'Baloo Bhai 2', cursive;
+  text-align: center;
+  color: #fff;
+}
+
+.token_details .token_image img
+{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 36px;
+  object-fit: cover;
+  border: 5px solid white;
+} 
+.token_details .token_sym {
+  text-align: center;
+  font: 700 20px 'Baloo Bhai 2', cursive;
+  color: #ffd8be;
+  padding-top: 10px;
+  
+}
+.token_details .token_value {
+  text-align: center;
+  font: 700 14px 'Urbanist', sans-serif;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.txn_container .forward_arrow {
+  font-size: 36px;
+  letter-spacing: 2px;
+  background: -webkit-linear-gradient(180deg,#fe6d73, #232152,#fe6d73);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-green 1.5s ease infinite;
+}
+.txn_container .reverse_arrow {
+  font-size: 36px;
+  letter-spacing: 2px;
+  transform: rotate(180deg);
+  background: -webkit-linear-gradient(180deg,#a8ff78, #232152,#a8ff78);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 1.5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 100% 50%;
+	}
+	
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradient-green {
+	0% {
+		background-position: 100% 50%;
+	}
+	
+	100% {
+		background-position: 0% 50%
+	}
+}
