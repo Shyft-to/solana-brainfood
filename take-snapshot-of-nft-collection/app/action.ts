@@ -1,7 +1,7 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { ShyftSdk, Network, Nft } from "@shyft-to/js";
+import { ShyftSdk, Network, Nft, DAS } from "@shyft-to/js";
 
 export async function findHolders(collection: string) {
   try {
@@ -14,27 +14,31 @@ export async function findHolders(collection: string) {
     });
 
     let page: any = 1;
-    let allNFTs: Nft[] = [];
+    let allNFTs: DAS.GetAssetResponse[] = [];
 
     while (page) {
       console.log("fetch page: ", page);
 
-      const response = await shyft.nft.collection.getNfts({
-        collectionAddress: collection,
+      const response = await shyft.rpc.getAssetsByGroup({
+        groupValue: collection,
+        groupKey: "collection",
+        sortBy: { sortBy: "created", sortDirection: "asc" },
         page,
-        size: 50,
+        limit: 1000,
       });
 
-      allNFTs.push(...response.nfts);
+      console.log("fetch page: ", page, response);
 
-      if (response.total_count < 50) {
+      allNFTs.push(...response.items);
+
+      if (response.total < 1000) {
         page = false;
       } else {
         page++;
       }
     }
 
-    const owners = new Set(allNFTs.map((nft) => nft.owner));
+    const owners = new Set(allNFTs.map((nft) => nft.ownership.owner));
 
     return { success: true, data: Array.from(owners) as string[] };
   } catch (error: any) {
