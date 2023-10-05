@@ -8,7 +8,7 @@ View this tutorial on Youtube, and if you like it, please share and subscribe. Y
 1. Clone repository:
 ```bash
 ## Don't forget to ⭐ star and fork it first :)
-git clone --depth=1 git@github.com:Shyft-to/solana-brainfood.git droppii-b2b
+git clone --depth=1 git@github.com:Shyft-to/solana-brainfood.git solana-brainfood
 cd solana-brainfood/track-votes-in-gov-proposal
 ```
 2. Install the dependencies:
