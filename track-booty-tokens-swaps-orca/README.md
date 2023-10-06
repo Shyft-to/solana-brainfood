@@ -1,7 +1,7 @@
-# Tracking RaFFFle events: Tickets purchased for a specific raffle 🎫
-This is the source code for the tutorial **Tracking RaFFFle events: Tickets purchased for a specific raffle**. Click this [link](https://blogs.shyft.to/how-to-track-ticket-purchased-for-a-famous-fox-raffle-on-solana-9db91a36acd) to read the full tutorial.
+# How to track all $Booty token swaps in one hour on Orca ◍
+This is the source code for the tutorial **How to track all $Booty token swaps in one hour on Orca**. Click this [link](https://blogs.shyft.to/how-to-track-all-booty-token-swaps-in-one-hour-on-orca-f0d1b6f46027) to read the full tutorial.
 
-[![Final video of fixing issues in your code in VS Code](https://img.youtube.com/vi/hq25WaMWVHs/maxresdefault.jpg)](https://www.youtube.com/watch?v=hq25WaMWVHs)
+[![Final video of Tracking $booty tokens on Solana](https://img.youtube.com/vi/hq25WaMWVHs/maxresdefault.jpg)](https://www.youtube.com/watch?v=hq25WaMWVHs)
 View this tutorial on youtube, and if you like it, please share and subscribe. Your support means a lot to us.
 
 ## Getting Started
@@ -9,7 +9,7 @@ View this tutorial on youtube, and if you like it, please share and subscribe. Y
 ```bash
 ## Don't forget to ⭐ star and fork it first :)
 git clone --depth=1 git@github.com:Shyft-to/solana-brainfood.git droppii-b2b
-cd solana-brainfood/raffle-tracker
+cd solana-brainfood/track-booty-tokens-swaps-orca
 ```
 2. Install the dependencies:
 ```bash
