@@ -1,7 +1,7 @@
 # How to track all $Booty token swaps in one hour on Orca ◍
 This is the source code for the tutorial **How to track all $Booty token swaps in one hour on Orca**. Click this [link](https://blogs.shyft.to/how-to-track-all-booty-token-swaps-in-one-hour-on-orca-f0d1b6f46027) to read the full tutorial.
 
-[![Final video of Tracking $booty tokens on Solana](https://img.youtube.com/vi/hq25WaMWVHs/maxresdefault.jpg)](https://www.youtube.com/watch?v=hq25WaMWVHs)
+[![Final video of Tracking $booty tokens on Solana](https://img.youtube.com/vi/cQS-N6dO9ao/maxresdefault.jpg)](https://youtu.be/cQS-N6dO9ao)
 View this tutorial on youtube, and if you like it, please share and subscribe. Your support means a lot to us.
 
 ## Getting Started
