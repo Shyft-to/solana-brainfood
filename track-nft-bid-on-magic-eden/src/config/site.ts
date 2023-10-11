@@ -1,0 +1,21 @@
+export const SiteConfig = {
+  name: "Shyft | Web3 APIs",
+  description: "Simplifying Solana Development",
+  urls: {
+    getApiKey: "https://shyft.to/get-api-key",
+    github: "https://github.com/Shyft-to",
+    twitter: "https://twitter.com/shyft_to",
+    linkedin: "https://www.linkedin.com/company/shyft-to",
+    discord: "https://discord.gg/8JyZCjRPmr",
+    telegram: "https://t.me/shyft_to",
+    medium: "https://medium.com/shyft-to",
+    docs: "https://docs.shyft.to",
+    nftDocument: "https://docs.shyft.to/start-hacking/nft",
+    marketplaceDocument: "https://docs.shyft.to/start-hacking/nft-marketplace",
+    tokenDocument: "https://docs.shyft.to/start-hacking/fungible-tokens",
+    walletDocument: "https://docs.shyft.to/start-hacking/wallet",
+    termsAndConditions: "https://shyft.to/terms",
+    privacyAndPolicy: "https://shyft.to/privacy-policy",
+    contectEmail: "genesis@shyft.to",
+  },
+};
