@@ -32,6 +32,7 @@ export type CallbackDataModel = {
   created_at: string;
   type: string;
   timestamp: string;
+  signatures: Array<string>;
   action: {
     info: any;
     type: string;

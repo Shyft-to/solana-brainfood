@@ -7,8 +7,6 @@ import { TxnAction } from "@shyft-to/js";
 export async function POST(req: NextRequest, res: NextApiResponse) {
   const body = (await req.json()) as CallbackDataType;
 
-  console.log({ body });
-
   if (
     !body.type ||
     !body.actions ||
@@ -22,14 +20,13 @@ export async function POST(req: NextRequest, res: NextApiResponse) {
 
   if (body.status !== "Success") return;
 
-  console.log("action", action);
-
   if (!action)
     return res.status(400).json({ message: "Invalid callback data" });
 
-  const { error } = await supabase.from("shyft_token_ticker").insert({
+  const { error } = await supabase.from("shyft_token_activities").insert({
     type: body.type,
     timestamp: body.timestamp,
+    signatures: body.signatures,
     action,
   });
 

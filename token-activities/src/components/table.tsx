@@ -18,7 +18,7 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_API_KEY!
 );
 
-export default function BidTable() {
+export default function Activities() {
   const [token, setToken] = useState("");
   const [tracking, setTracking] = useState(false);
   const [transactions, setTransactions] = useState<CallbackDataModel[]>([]);
@@ -47,13 +47,13 @@ export default function BidTable() {
 
   useEffect(() => {
     const channel = supabase
-      .channel("shyft_token_ticker")
+      .channel("shyft_token_activities")
       .on(
         "postgres_changes",
         {
           event: "*",
           schema: "public",
-          table: "shyft_token_ticker",
+          table: "shyft_token_activities",
         },
         (payload) => {
           console.log(payload);
@@ -118,6 +118,7 @@ export default function BidTable() {
 
         {transactions.map((tx, idx) => {
           const action = tx.action;
+          const signature = tx.signatures?.[0];
 
           let icon;
           let text;
@@ -158,12 +159,18 @@ export default function BidTable() {
           }
 
           return (
-            <div className="bg-slate-700 rounded-2xl p-6 space-y-4">
-              <h3 className="text-yellow-500 font-bold text-xl">
-                {tx.type} {icon}
-              </h3>
-              {text}
-            </div>
+            <a
+              className="block"
+              target="_blank"
+              href={`https://translator.shyft.to/tx/${signature}`}
+            >
+              <div className="bg-slate-700 rounded-2xl p-6 space-y-4">
+                <h3 className="text-yellow-500 font-bold text-xl">
+                  {tx.type} {icon}
+                </h3>
+                {text}
+              </div>
+            </a>
           );
         })}
       </div>
