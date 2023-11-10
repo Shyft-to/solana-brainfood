@@ -1,8 +1,8 @@
 # Take snapshot of NFT collection using Shyft APIs
 
-This is the source code for the tutorial **Take snapshot of NFT collection using Shyft APIs**. Click this [link]() to read the full tutorial.
+This is the source code for the tutorial **Take snapshot of NFT collection using Shyft APIs**. Click this [link](https://blogs.shyft.to/how-to-fetch-all-holders-of-nft-collection-with-shyft-das-api-d96d1b540970) to read the full tutorial.
 
-[![Final video of fixing issues in your code in VS Code]()]()
+[![Final video of fixing issues in your code in VS Code](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*5RjhzZBHOjuOhcL_WaiV8w.jpeg)](https://www.youtube.com/watch?v=Oz3cG9OxrSc)
 View this tutorial on Youtube, and if you like it, please share and subscribe. Your support means a lot to us.
 
 ## Getting Started

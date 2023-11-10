@@ -10,7 +10,7 @@ View this tutorial on youtube, and if you like it, please share and subscribe. Y
 ```bash
 ## Don't forget to ⭐ star and fork it first :)
 git clone --depth=1 git@github.com:Shyft-to/solana-brainfood.git solana-brainfood
-cd solana-brainfood/raffle-tracker
+cd solana-brainfood/tracking-tickets-sold-in-a-raffle-in-a-day
 ```
 2. Install the dependencies:
 ```bash

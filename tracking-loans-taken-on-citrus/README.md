@@ -2,7 +2,7 @@
 
 This is the source code for the tutorial **Tracking loan events on Famous Fox Citrus**. Click this [link](https://blogs.shyft.to/tracking-loan-events-on-famous-fox-citrus-f294ba29fdf5) to read the full tutorial.
 
-[![Final video of fixing issues in your code in VS Code](https://img.youtube.com/vi/uakCJTv70cI/maxresdefault.jpg)](https://www.youtube.com/watch?v=uakCJTv70cI)
+[![Final video of fixing issues in your code in VS Code](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*nJELBDg-8kvSxSRMirdpsg.jpeg)](https://youtu.be/8II03N2VCks?si=f4LInc3rC2P_v3uC)
 View this tutorial on Youtube, and if you like it, please share and subscribe. Your support means a lot to us.
 
 ## Getting Started
@@ -11,7 +11,7 @@ View this tutorial on Youtube, and if you like it, please share and subscribe. Y
 ```bash
 ## Don't forget to ⭐ star and fork it first :)
 git clone --depth=1 git@github.com:Shyft-to/solana-brainfood.git solana-brainfood
-cd solana-brainfood/citrus-dashboard
+cd solana-brainfood/tracking-loans-taken-on-citrus
 ```
 2. Install the dependencies:
 ```bash

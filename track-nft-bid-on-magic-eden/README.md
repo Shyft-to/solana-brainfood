@@ -1,9 +1,8 @@
 # Tracking NFT bids on MagicEden.
 
-This is the source code for the tutorial **Tracking NFT bids on MagicEden**. Click this [link]() to read the full tutorial.
+This is the source code for the tutorial **Tracking NFT bids on MagicEden**. Click this [link](https://blogs.shyft.to/track-nft-bid-of-collection-on-magiceden-a68e140fff01) to read the full tutorial.
 
-[![Final video of fixing issues in your code in VS Code]()]()
-View this tutorial on Youtube, and if you like it, please share and subscribe. Your support means a lot to us.
+![Tracking NFT bids on MagicEden](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*ZiD8q9gbteCDZiiNvzla1Q.png)
 
 ## Getting Started
 

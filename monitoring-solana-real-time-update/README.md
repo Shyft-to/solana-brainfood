@@ -1,9 +1,9 @@
-# Tracking token activities on Solana in real-time
+# Monitoring Solana real time updates
 
-This is the source code for the tutorial **Tracking token activities on Solana in real-time
-**. Click this [link](https://medium.com/shyft-to/tracking-token-activities-on-solana-in-real-time-e9a398e4b2c5) to read the full tutorial.
+This is the source code for the tutorial **Monitoring Solana real time updates**. Click this [link]() to read the full tutorial.
 
-![Tracking token activities on Solana in real-time](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*17b8LhJ2yH1Dcx5PMQ9ZGg.jpeg)
+[![Final video of fixing issues in your code in VS Code]()]()
+View this tutorial on Youtube, and if you like it, please share and subscribe. Your support means a lot to us.
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ This is the source code for the tutorial **Tracking token activities on Solana i
 ```bash
 ## Don't forget to ⭐ star and fork it first :)
 git clone --depth=1 git@github.com:Shyft-to/solana-brainfood.git solana-brainfood
-cd solana-brainfood/token-activities
+cd solana-brainfood/monitoring-solana-real-time-update
 ```
 2. Install the dependencies:
 ```bash

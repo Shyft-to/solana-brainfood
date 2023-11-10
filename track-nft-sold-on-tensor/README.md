@@ -1,8 +1,8 @@
 # Tracking NFT sales on Tensor in a period.
 
-This is the source code for the tutorial **Tracking NFT sales on Tensor in a period**. Click this [link]() to read the full tutorial.
+This is the source code for the tutorial **Tracking NFT sales on Tensor in a period**. Click this [link](https://blogs.shyft.to/tracking-sold-nfts-on-tensor-3f12670430a3) to read the full tutorial.
 
-[![Final video of fixing issues in your code in VS Code](https://img.youtube.com/vi/uakCJTv70cI/maxresdefault.jpg)](https://www.youtube.com/watch?v=uakCJTv70cI)
+[![Final video of fixing issues in your code in VS Code](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*qRac2SJTeIYnWYiGf7QTUA.jpeg)](https://www.youtube.com/watch?v=Q0bhSN5LU-c)
 View this tutorial on Youtube, and if you like it, please share and subscribe. Your support means a lot to us.
 
 ## Getting Started
