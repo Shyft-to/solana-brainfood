@@ -1,0 +1,22 @@
+export type RafffleItemType = {
+  pubkey: string;
+  creator: string;
+  winner: string;
+  winnerCount: number;
+  mint: string;
+  entrants: string;
+  prize: string;
+  cm: string;
+  endTimestamp: number;
+  ticketPrice: number;
+  totalTickets: number;
+  totalPrizes: number;
+  lamports: number;
+  numberSold: number;
+  limit: number;
+  holderOnly: boolean;
+  fox: boolean;
+  claimedPrizes: number;
+  randomness: number;
+  startTimestamp: number;
+};
